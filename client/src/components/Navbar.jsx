@@ -7,7 +7,7 @@ const Navbar = () => {
         { title: 'Try Editor', link: 'editor' },
     ];
 
-    if (window.location.pathname === '/editor') { return null }
+    if (window.location.pathname === '/editor' || window.location.pathname === '/register') { return null }
 
     return (
         <>
